@@ -11,5 +11,6 @@
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
     "Lab 2 Architecture Layers/lib/**/*.jar"
-  ]
+  ],
+  "todo-tree.ripgrep": "C:\\Users\\aryan\\AppData\\Local\\Microsoft\\WinGet\\Links\\rg.exe"
 }
