@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "com.example.grpcstream";
+option java_multiple_files = true;
+
+service NumberService {
+    rpc CheckNumbers(stream NumberRequest) returns (stream NumberResponse);
+}
+
+message NumberRequest {
+    int32 number = 1;
+}
+
+message NumberResponse {
+    int32 number = 1;
+    string result = 2;
+}
